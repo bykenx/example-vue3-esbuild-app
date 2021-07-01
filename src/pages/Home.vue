@@ -1,6 +1,6 @@
 <template>
   <div class="Home">
-    <img class="Home-logo" src="https://next.router.vuejs.org/logo.png" />
+    <img class="Home-logo" src="../images/logo.svg" />
     <div>Hello, Vue App.</div>
   </div>
 </template>

@@ -1,3 +1,2 @@
 {
-  "include": ["shims.d.ts", "*.ts", "src/global.d.ts"]
 }

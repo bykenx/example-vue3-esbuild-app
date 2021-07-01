@@ -6,13 +6,15 @@
   "author": "byken",
   "license": "MIT",
   "scripts": {
-    "build": "node ./build.mjs"
+    "build": "node ./scripts/build.mjs",
+    "dev": "node ./scripts/dev.mjs"
   },
   "engines": {
     "node": "> 14.7.0"
   },
   "devDependencies": {
     "@types/node": "^15.12.4",
+    "chalk": "^4.1.1",
     "esbuild": "^0.12.12",
     "esbuild-plugin-html-template": "^0.0.2",
     "esbuild-plugin-vue-sfc": "^0.0.2",
